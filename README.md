@@ -252,7 +252,7 @@ Grid search nos indica:
 
 1. *La que considero la conclusión mas importante, es que para este caso el uso de PCA afecta inmensamente el modelo, inclusive luego de hacer PCA el sólo reducir una dimensión de este mismo lo afecta en mas de un 10%, dandonos a entender que todas y cada una de los datos son escenciales para un modelo predictivo eficaz.*
 2. *El mejor modelo con seguridad es el de regresión logistica, para cualquiera de los métodos de evaluación siempre obtuvo las mejores notas, pudiendo indicar que para datasets de pocas Colummnas es el modelo que mas se ajusta a una predicción eficaz.*
-3. 
+3. *EL MCC nos indico la gran inviabilidad de la PCA, donde sus valores oscilaban el 0 y llegando a negativo demostrando que practicamente el modelo ya estaba era adivinando los resultados dadas las entradas.
 
 
 ## Link al video de youtube en el readme.md
