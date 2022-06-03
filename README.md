@@ -197,7 +197,7 @@ Para luego ingresarla en la función: *GridSearchCV()*, encargada de hacer todo 
 
     gridSearchCV_SVC = GridSearchCV( estimator = SVC(), param_grid = param_grid, cv = 3, scoring = "f1_micro", refit = True, return_train_score = False,)
 
-## Resultados (puede poner unas imagenes de una tabla de resultados en el README.md)
+## Resultados
 
 Los resultados decidi dividirlos en varias partes dado a que me parece pertinente mencionar como cambian los resultados con muy pequeños cambios.
 
