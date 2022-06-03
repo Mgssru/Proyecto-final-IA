@@ -3,7 +3,7 @@
 
 ## Titulo del trabajo
 
-**Predicción de gente propensa a ser fumadora a partir de sus datos médicos**
+**Predicción de gente propensa a ser fumadora**
 
 ## Lista de los integrantes del grupo.
 
