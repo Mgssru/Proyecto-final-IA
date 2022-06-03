@@ -116,7 +116,7 @@ Para resolver el problema se utilizó 3 tipos de métodos:
 Para usar maquinas de soporte vectorial se usa la función: *svm.SVC()*, donde variaran los parametros de "kernel" y "gamma", para luego entrenarlo con el conjunto de entrenamiento que determinemos.
 
     #  Definición del método de maquina de soporte vectorial
-    msv = svm.SVC( kernel = 'rbf' , gamma='auto' , random_state=895 )
+    msv = svm.SVC( kernel = 'linear' , gamma='auto' , random_state=895 )
     
     # Entrenamiento del método
     msv.fit( Xn_t , Y_train )
