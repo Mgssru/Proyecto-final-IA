@@ -257,4 +257,4 @@ Grid search nos indica:
 
 ## Link al video de youtube en el readme.md
 
-
+Link al video: https://www.youtube.com/watch?v=7M1LB-P0sm8&feature=youtu.be
