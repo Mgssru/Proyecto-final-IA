@@ -54,7 +54,7 @@ De las caracteristicas anteriores, se desea predecir lo propensa que es una pers
 
    * Selección de evaluación:
 
-     - ** Dado a que el metodo es supervisado se uso un ##% para entrenar y un ##% para validar,seleccionamos estos a partir de la cantidad de datos, de tal manera que el conjunto de validación que suele ser el más pequeño de los dos tenga por lo menos una cantidad significativa de representantes de todas las clases (10 mínimo)**
+     - **Dado a que el metodo es supervisado se uso un ##% para entrenar y un ##% para validar,seleccionamos estos a partir de la cantidad de datos, de tal manera que el conjunto de validación que suele ser el más pequeño de los dos tenga por lo menos una cantidad significativa de representantes de todas las clases (10 mínimo)**
 
       Para ello se uso la función: *X_train, X_test, Y_train, Y_test = train_test_split( S, Y, test_size=0.1, train_size=0.9, random_state=0 )* donde determinamos un conjunto de entrenamiento del 90% y un conjunto de validación del 10%, el cual es de 134 muestras (muchisimo mayor al mínimo de 10)
 
